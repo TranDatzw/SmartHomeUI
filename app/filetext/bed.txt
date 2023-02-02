@@ -1,0 +1,16 @@
+***Phong Bed***    
+TT PC:		
+Off
+Volume PC:
+40
+******************
+TT May Lanh:
+Off
+Nhiet Do May Lanh:
+16
+******************
+TT Den:
+On
+CS Den:
+90
+******************

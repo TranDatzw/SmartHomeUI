@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, stop:0 #d9e7ff, stop:1 #e3ffe7);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>10</y>
+      <width>420</width>
+      <height>450</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, stop:0 #000851, stop:1 #1CB5E0);
+font-size: 15px;
+font-weight: 900;
+color: white;
+border-radius: 15px;
+
+</string>
+    </property>
+    <property name="title">
+     <string>Sign In</string>
+    </property>
+    <widget class="QWidget" name="widget" native="true">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>370</y>
+       <width>310</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">	border-style: solid;
+	border-width: 2px;
+	border-color: #9999aa;
+	border-radius: 10px;
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, stop:0 #d9e7ff, stop:1 #e3ffe7);</string>
+     </property>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="styleSheet">
+         <string notr="true">font-size: 15px;
+font-weight: 700;
+color: black;
+background-color: none;
+	border-style: none;
+
+</string>
+        </property>
+        <property name="text">
+         <string>Confirm Password</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_password">
+        <property name="styleSheet">
+         <string notr="true">background-color: silver;
+font-size: 15px;
+font-weight: 700;
+color: black;</string>
+        </property>
+        <property name="echoMode">
+         <enum>QLineEdit::Password</enum>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>20</y>
+       <width>250</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: white;
+font-size: 30px;
+font-weight: 900;
+background-color: none;
+</string>
+     </property>
+     <property name="text">
+      <string>SMART HOME</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_logo">
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>80</y>
+       <width>250</width>
+       <height>250</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: none;</string>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QPushButton" name="pushButton_login">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>480</y>
+      <width>160</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #9999aa;
+	border-radius: 10px;
+	color: white;
+	font-size: 20px;
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, stop:0 #000851, stop:1 #1CB5E0);
+}
+
+QPushButton:enabled {
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, stop:0 #000851, stop:1 #1CB5E0);
+		color: white;
+}
+
+QPushButton:pressed {
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, stop:0  rgba(0, 255, 255, 255),, stop:1 #1CB5E0);
+		color: #fffffe;
+}
+
+
+QPushButton:hover:!pressed {
+	background-color: qlineargradient(spread:pad, x1:1, y1:0, x2:0, y2:1, stop:0 #e3ffe7, stop:1 #d9e7ff);
+		color: #0c2f70;
+}
+
+QPushButton:disabled {
+		background-color: #aaaaaa;
+		color: #ffffff;
+}</string>
+    </property>
+    <property name="text">
+     <string>Login</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

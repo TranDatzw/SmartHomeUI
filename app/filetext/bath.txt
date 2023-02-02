@@ -1,0 +1,16 @@
+***Phong Bath***    
+TT Music Speaker:		
+Off
+Volume Music Speaker:
+25
+******************
+TT May nuoc nong:
+On
+Nhiet Do May nuoc nong:
+-30
+******************
+TT Den:
+On
+CS Den:
+90
+******************

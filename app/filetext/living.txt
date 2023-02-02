@@ -1,0 +1,16 @@
+***Phong Living***    
+TT TV:		
+Off
+Volume TV:
+89
+******************
+TT May Lanh:
+Off
+Nhiet Do May Lanh:
+20
+******************
+TT Den:
+On
+CS Den:
+66
+******************

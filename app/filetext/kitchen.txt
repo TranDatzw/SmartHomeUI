@@ -1,0 +1,14 @@
+***Phong Kitchen***    
+TT Tu Lanh:		
+Off
+******************
+TT Binh GAS:
+On
+Level GAS:
+1
+******************
+TT Den:
+Off
+CS Den:
+69
+******************
